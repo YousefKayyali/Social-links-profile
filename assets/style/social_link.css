@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    background-color: hsl(0, 0%, 8%);
+        color: white;
+        font-family: inter_varible,sans-serif !important;
+}
+.container{
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: hsl(0, 0%, 12%);
+}
+.profile_pic{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+h2 + p{
+    color:hsl(75, 94%, 57%);
+    margin-top: 5px;
+    margin-bottom: 7px;
+}
+.radious{
+    border-radius:3%;
+}
+.description{
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+a{
+        color: white;
+    display:block;
+    background-color: hsl(0, 0%, 20%);
+    font-size: 18px;
+    padding: 10px;
+    margin:0 40px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+.container a:hover{
+    background-color:hsl(75, 94%, 57%);
+    color:hsl(0, 0%, 8%);
+}
+a:visited{
+    color:white;
+}
+@media (min-width: 500px) {
+    .container{
+        width: 400px;
+        margin: 10px;
+    }
+}
+@font-face {
+    font-family:inter_varible; ;
+    src: url(assets/fonts/Inter-VariableFont_slnt,wght.ttf);
+}
